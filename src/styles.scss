@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --background:#000000;
+    --text: #FFFFFF;
+    --text-alt: #000000;
+    --text-active: #FCE82F;
+    --border: #FCE82F;
+    --button: #FCE82F;
+    --transition: 0.4s;
+    --font-family: Montserrat
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-bold;
+    src: url(./assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-light;
+    src: url(./assets/fonts/Montserrat-Light.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 14px;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text);
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    cursor: pointer;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--text);
+  cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c5c5c5;
+  cursor: pointer;
+}
+
+/* PrimeNG */
+@import "../node_modules/primeng/resources/primeng.min.css";
+@import "../node_modules/primeflex/primeflex.scss";
+@import "../node_modules/primeicons/primeicons.css";

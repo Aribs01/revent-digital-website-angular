@@ -1,0 +1,21 @@
+.app-logo-container{
+    margin-top: -25px;
+}
+.app-logo{
+    width: 220px;
+}
+
+@media (max-width: 991px){
+    .app-logo-container{
+        margin-top: -10px;
+    }
+    .app-logo{
+        width: 180px;
+    }
+}
+
+@media (max-width: 767px){}
+
+@media (max-width: 577px){
+
+}

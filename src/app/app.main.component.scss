@@ -1,0 +1,23 @@
+.layout-wrapper {
+    padding: 0px 70px 120px 165px;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1280px){
+
+}
+
+@media (max-width: 991px){
+    .layout-wrapper {
+        padding: 0px 70px 100px 100px;
+    }
+}
+
+@media (max-width: 767px){
+    .layout-wrapper {
+        padding: 0px 20px 100px 20px;
+    }
+}
+
+@media (max-width: 577px){
+
+}
